@@ -14,6 +14,10 @@ these are of the following types ;
 //this is basic syntax to define an array :
 let arr = [1, 2 ,3, 4, 5, 6, 7];
 console.log(arr);
+for(i = 0; i<arr.length ; i++){
+    console.log(i);
+    //This is how we traverse through an array
+}
 
 //this is the basic syntax of an object : 
 //Demo of object datatype
@@ -45,6 +49,19 @@ let x;
  x = "Salu"; /* This value of x will be selected and will
  be the output of the program */
 console.log(x);
+
+//Boolean type in JS//
+let x1 = 5;
+let x2 = 5; 
+let x3 = 6;
+console.log(x1 == x2); // this will return true
+console.log(x1 == x3); //this returns false 
+
+//TypeOf function//
+let s1 = "Kshitij Sharma the Lost Legend";
+typeof s1;
+
+
 
 
 
