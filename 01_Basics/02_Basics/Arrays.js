@@ -15,4 +15,11 @@ arr.pop();
 console.log(arr);
 //last value gets removed
 
+//.join operation converts the array into string
+const arr2 = arr.join();
+console.log(arr2); //This will get printed in string format.
+console.log(arr); //This will get printed in array format.
+
+
+
 
