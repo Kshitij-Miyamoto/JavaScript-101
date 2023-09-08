@@ -34,6 +34,13 @@ function hello(name = "Kshitij"){
 }
 hello(); //example of default parmater
 hello("Salu");//If we put in new paramters the initial once get overruled.
-    
+
+function greet(){
+    return "Kshitij Sharma says hi !!";
+}
+
+  const newmessage = greet();
+   console.log(`${newmessage} + Will make the strongest academic comeback in history of MAIT`);
+   
 
 
