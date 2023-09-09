@@ -41,6 +41,17 @@ function greet(){
 
   const newmessage = greet();
    console.log(`${newmessage} + Will make the strongest academic comeback in history of MAIT`);
+
+
+//Function with paramaeters : 
+function course(coursename){
+    return `Let's learn how to be come a ${coursename} using Full Stack engineering`
+
+}
+//here we are passing parameters
+console.log(course('Bismillah'));
+console.log(course("T-Shaped Engineer"));
+
    
 
 
